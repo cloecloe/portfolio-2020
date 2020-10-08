@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 import { Link } from "gatsby"
 
 export default function Project(props) {
@@ -19,17 +19,14 @@ export default function Project(props) {
     >
       <div className="content-side w-full md:w-2/3 md:mr-5">
         <h2>{props.title}</h2>
-        <h3> August 2020</h3>
+        <h3>{props.date}</h3>
         <p className="my-6">
-          A webapp to plan your meals ahead in a calendar, find recipe ideas and
-          share your recipes. This product is an MVP designed, implemented and
-          shipped to production in 10 days by 4 developers, as our final student
-          project at Le Wagon. It uses Ruby On Rails and the MVC architecture.
+          {props.content}
         </p>
         <Link
           target="_blank"
           className="flex"
-          to="http://www.corianderplanner.com/"
+          to={props.link}
         >
           <h4 className="mb-4">Look at my project</h4>
           <i class="fas fa-external-link-alt ml-2"></i>
@@ -42,10 +39,10 @@ export default function Project(props) {
         target="_blank"
         rel="noopener noreferrer"
         className="image-side w-1/3"
-        to="http://www.corianderplanner.com/"
+        to={props.link}
       >
         <img
-          src="../images/coriander-planner.png"
+          src={"../images/" + props.image}
           alt="screenshot of Coriander Planner website"
           className="mx-2 my-5 md:mx-0 md:my-0"
         />
