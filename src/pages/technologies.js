@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Technologies(props) {
+const Technologies = (props) => {
   const iconsBackEnd = props.iconsBackEnd.map(icon => (
     <div className="icon" key={icon.toString()}>
       <img src={"../images/icons/" + icon} alt={icon.split(".")[0]} />
@@ -83,3 +83,5 @@ export default function Technologies(props) {
     </div>
   )
 }
+
+export default Technologies;
