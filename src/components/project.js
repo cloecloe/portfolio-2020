@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 export default function Project(props) {
-  const iconsList = props.icons.map((icon) =>
+  let iconsList = props.icons.map((icon) =>
     <img
       key={icon.toString()}
       className="icon"

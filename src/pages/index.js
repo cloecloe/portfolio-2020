@@ -59,27 +59,7 @@ export default function Home() {
       <main>
         <Header />
         <About />
-        <Technologies
-          iconsBackEnd={[
-            "ruby.png",
-            "rails.png",
-            "laravel.png",
-            "activerecord.jpg",
-            "postgresql.jpg",
-          ]}
-          iconsApi={[
-            "heroku.png",
-            "git.png",
-            "github.svg",
-            "docker.webp",
-            "cloudinary.jpg",
-            "npm.png",
-            "yarn.png",
-            "babel.png",
-            "webpack.png",
-            "mapbox.png",
-          ]}
-        />
+        <Technologies />
         <Projects />
         <Contact />
         <Footer />

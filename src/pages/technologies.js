@@ -1,20 +1,7 @@
 import React from 'react'
+import Technology from "../components/technology"
 
-const Technologies = (props) => {
-  const iconsBackEnd = props.iconsBackEnd.map(icon => (
-    <div className="icon" key={icon.toString()}>
-      <img src={"../images/icons/" + icon} alt={icon.split(".")[0]} />
-      {icon.split(".")[0][0].toUpperCase() + icon.split(".")[0].slice(1)}
-    </div>
-  ))
-
-  const iconsApi = props.iconsApi.map(icon => (
-    <div className="icon" key={icon.toString()}>
-      <img src={"../images/icons/" + icon} alt={icon.split(".")[0]} />
-      {icon.split(".")[0][0].toUpperCase() + icon.split(".")[0].slice(1)}
-    </div>
-  ))
-
+const Technologies = () => {
   return (
     <div id="technologies">
       <div className="container flex flex-col items-center justify-center md:items-start md:justify-start py-32">
@@ -22,7 +9,13 @@ const Technologies = (props) => {
 
         <div className="type w-full md:w-2/3 py-6">
           <h2 className="back-end">Back-end</h2>
-          <div className="icons flex w-full flex-wrap my-8">{iconsBackEnd}</div>
+          <Technology iconsTech={[
+            "ruby.png",
+            "rails.png",
+            "laravel.png",
+            "activerecord.jpg",
+            "postgresql.jpg",
+          ]}/>
         </div>
 
         <div className="type w-full md:w-2/3 py-6 my-32">
@@ -77,7 +70,18 @@ const Technologies = (props) => {
 
         <div className="type w-full md:w-2/3 py-6">
           <h2 className="other-tools">Other tools and API</h2>
-          <div className="icons flex w-full flex-wrap my-8">{iconsApi}</div>
+          <Technology iconsTech={[
+            "heroku.png",
+            "git.png",
+            "github.svg",
+            "docker.webp",
+            "cloudinary.jpg",
+            "npm.png",
+            "yarn.png",
+            "babel.png",
+            "webpack.png",
+            "mapbox.png",
+          ]} />
         </div>
       </div>
     </div>
