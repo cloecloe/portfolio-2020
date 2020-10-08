@@ -15,7 +15,7 @@ export default function Home() {
         <title>Cloe's portfolio</title>
         <link
           rel="icon"
-          href="../../public/images/logocloe.png"
+          href="../images/logocloe.png"
           type="image/png"
         />
         <meta
