@@ -20,7 +20,7 @@ export default function Home() {
         />
         <meta
           property="og:image"
-          content="https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v384-ning-07b-gradientbg_2.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=e7c1136bf8c780d34b25e02c9d99defc"
+          content="../images/logocloe.png"
         />
         <meta
           name="description"
@@ -40,7 +40,7 @@ export default function Home() {
         />
         <meta
           name="twitter:image"
-          content="https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v384-ning-07b-gradientbg_2.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=e7c1136bf8c780d34b25e02c9d99defc"
+          content="../images/logocloe.png"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <link

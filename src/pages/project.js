@@ -2,14 +2,14 @@ import React from 'react'
 import { Link } from "gatsby"
 
 export default function Project(props) {
-  const iconsList = props.icons.map(icon => (
+  const iconsList = props.icons.map((icon) =>
     <img
       key={icon.toString()}
       className="icon"
       src={"../images/icons/" + icon}
       alt={icon.split(".")[0]}
     />
-  ))
+  );
   // const reverse = props.reverse ? 'reverse' : ''
 
   return (
