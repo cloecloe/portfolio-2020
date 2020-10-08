@@ -1,0 +1,38 @@
+.pink {
+  background: linear-gradient(180deg, rgba(225, 56, 91, 0.95) 0%, rgba(224, 70, 144, 0.95) 100%);
+}
+
+.blue {
+  background: linear-gradient(180deg, rgba(162, 188, 239, 0.8) 0%, rgba(82, 161, 234, 0.8) 100%);
+}
+
+.purple {
+  background: linear-gradient(180deg, rgba(106, 58, 153, 0.7) 0%, rgba(151, 58, 153, 0.7) 100%);
+}
+
+.geometric-element {
+  box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.1), inset 6px 6px 34px rgba(255, 255, 255, 0.24);
+  backdrop-filter: blur(24px);
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.element-1 {
+  padding: 100px;
+  width: 100px;
+  position: absolute;
+  left: calc(50% - 135px/2 + 131.27px);
+  top: calc(50% - 135px/2 - 278.41px);
+}
+
+.element-2 {
+  position: absolute;
+  width: 158px;
+  height: 158px;
+  left: calc(50% - 158px/2 + 410.07px);
+  top: calc(50% - 158px/2 - 149.72px);
+  border-radius: 12px;
+  transform: rotate(-45.2deg);
+}
