@@ -14,7 +14,7 @@ export default function Project(props) {
 
   return (
     <div
-      id="projects"
+      id="project"
       className="project container flex flex-col md:flex-row items-center py-32"
     >
       <div className="content-side w-full md:w-2/3 md:mr-5">
