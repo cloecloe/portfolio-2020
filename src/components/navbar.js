@@ -17,21 +17,24 @@ class Navbar extends React.Component {
     return (
       <section id="navbar" className="fixed bg-white w-full z-10 opacity-75">
         <div className="flex justify-between items-center py-2 container">
-          <Link className="pr-6 my-1" to="#header">
+          <Link className="my-1" to="#header">
             <img src="../images/logocloe.png" alt="logo Cloe"/>
           </Link>
           <div className="right-content flex">
-            <Link className="pr-6" to="#about">
+            <Link className="mr-6 flex items-center" to="#about">
               About
             </Link>
-            <Link className="pr-6" to="#technologies">
+            <Link className="mr-6 flex items-center" to="#technologies">
               Technologies
             </Link>
-            <Link className="pr-6" to="#projects">
+            <Link className="mr-6 flex items-center" to="#projects">
               Projects
             </Link>
-            <Link className="pr-6" to="#contact">
+            <Link className="mr-6 hidden md:flex md:items-center" to="#contact">
               Contact
+            </Link>
+            <Link className="mr-6 block md:hidden contact" to="#contact">
+              <i class="far fa-envelope"></i>
             </Link>
           </div>
         </div>

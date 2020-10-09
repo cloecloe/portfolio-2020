@@ -4,6 +4,14 @@
   padding: 0 16px;
 }
 
+@media (max-width: 450px) {
+  .container {
+    margin: 0;
+    width: 100%;
+    padding: 0 16px;
+  }
+}
+
 p {
   font-family: 'Mukta', sans-serif;
 }
