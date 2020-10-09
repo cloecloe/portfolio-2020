@@ -3,7 +3,7 @@
   background-size: cover;
   border-radius: 32px;
   max-width: 1000px;
-  height: 550px;
+  min-height: 500px;
 }
 
 #contact > .icons > a {
@@ -19,8 +19,6 @@
 #contact > a {
   color: white;
   padding: 12px 20px;
-  margin: 16px 0;
-  max-width: 200px;
   background: #6A3A99;
   box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.15);
   border-radius: 65px;

@@ -14,12 +14,22 @@
 @media (max-width: 768px) {
   #banner {
     background-image: url('../../images/header-mobile.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
   }
 }
 
 @media (max-width: 450px) {
   #banner {
     background-image: url('../../images/header-mob.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
   }
 }
 
