@@ -11,3 +11,7 @@
   max-width: 230px;
   margin: 4rem 8rem;
 }
+
+#about > .left-content > p {
+  font-size: 20px;
+}
