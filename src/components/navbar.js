@@ -16,8 +16,8 @@ class Navbar extends React.Component {
   render() {
     return (
       <section id="navbar" className="fixed bg-white w-full z-10 opacity-75">
-        <div className="flex justify-between items-center py-2 container">
-          <Link className="my-1" to="#header">
+        <div className="flex justify-center md:justify-between items-center py-2 container">
+          <Link className="my-1 hidden md:flex md:items-center" to="#header">
             <img src="../images/logocloe.png" alt="logo Cloe"/>
           </Link>
           <div className="right-content flex">
