@@ -15,13 +15,37 @@ export default function Header() {
           </h1>
           <Button textContent="Discover my story" link="#about" />
         </div>
-        {/* <div className="geometric-elements">
-          <div className="geometric-element pink circle element-1"></div>
-          <div className="geometric-element blue triangle element-2"></div>
-          <div className="geometric-element pink triangle"></div>
-          <div className="geometric-element blue circle"></div>
-          <div className="geometric-element purple circle"></div>
-          <div className="geometric-element purple triangle"></div>
+        {/* <div className="geometric-elements flex">
+          <img
+            className="geometric-element" id="element-1"
+            src="../images/triangle/red@0.5x.png"
+            alt="circle"
+          />
+          <img
+            className="geometric-element"
+            src="../images/triangle/purple.png"
+            alt="circle"
+          />
+          <img
+          className="geometric-element"
+          src="../images/triangle/blue@0.5x.png"
+          alt="circle"
+          />
+          <img
+          className="geometric-element"
+          src="../images/triangle/purple@0.5x.png"
+          alt="circle"
+          />
+          <img
+            className="geometric-element"
+            src="../images/triangle/red@0.5x.png"
+            alt="circle"
+          />
+          <img
+            className="geometric-element"
+            src="../images/triangle/purple.png"
+            alt="circle"
+          />
         </div> */}
       </div>
     </div>

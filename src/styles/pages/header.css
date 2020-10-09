@@ -1,7 +1,23 @@
 #banner {
-  background-image: url('../../images/header.png');
+  background-image: url('../../images/header-full.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+}
+
+#
+
+#banner > .content > .geometric-element {
+  opacity: 0.3;
+  backdrop-filter: blur(24px);
+  position: absolute;
+  background: rgba(162, 188, 239, 0.15);
+}
+
+#banner > .content > #element-1 {
+  width: 100px;
+  height: 100px;
+  left: calc(50% - 100px/2 - 104px);
+  top: calc(50% - 100px/2 + 495.76px);
 }

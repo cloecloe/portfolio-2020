@@ -81,6 +81,7 @@ const Technologies = () => {
             "babel.png",
             "webpack.png",
             "mapbox.png",
+            "gatsby.jpeg",
           ]} />
         </div>
       </div>
