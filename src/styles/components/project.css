@@ -5,7 +5,7 @@
 
 .project > .image-side {
   object-fit: cover;
-  min-width: 400px;
+  min-width: 350px;
 }
 
 .project > .image-side:hover {

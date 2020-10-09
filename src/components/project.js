@@ -44,7 +44,7 @@ export default function Project(props) {
         <img
           src={"../images/" + props.image}
           alt="screenshot of Coriander Planner website"
-          className="mx-2 my-5 md:mx-0 md:my-0"
+          className="mx-3 my-5 md:mx-0 md:my-0"
         />
       </Link>
     </div>

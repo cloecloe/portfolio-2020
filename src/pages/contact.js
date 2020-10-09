@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="container flex flex-col items-center justify-center mt-8 p-3"
+      className="container flex flex-col items-center justify-center mt-10 p-3"
     >
       <h1 className="text-center flex flex-wrap">
         Interested in a collaboration or learning more?
