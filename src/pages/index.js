@@ -56,7 +56,7 @@ export default function Home() {
           crossorigin="anonymous"
         ></script>
       </Helmet>
-      <main className="w-full">
+      <main>
         <Header />
         <About />
         <Technologies />

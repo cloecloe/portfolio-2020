@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "gatsby"
 
-class Navbar extends React.Component {
+export default function Navbar() {
   //   state = {
   //   navOpacity: 1
   // };
@@ -13,34 +13,45 @@ class Navbar extends React.Component {
   //     this.setState({ navOpacity: opacity });
   //   });
   // }
-  render() {
-    return (
-      <section id="navbar" className="fixed bg-white w-full z-10 opacity-75">
-        <div className="flex justify-center md:justify-between items-center py-2 container">
-          <Link className="my-1 hidden md:flex md:items-center" to="#header">
-            <img src="../images/logocloe.png" alt="logo Cloe"/>
-          </Link>
-          <div className="right-content flex">
-            <Link className="mr-6 flex items-center" to="#about">
-              About
-            </Link>
-            <Link className="mr-6 flex items-center" to="#technologies">
-              Technologies
-            </Link>
-            <Link className="mr-6 flex items-center" to="#projects">
-              Projects
-            </Link>
-            <Link className="mr-6 hidden md:flex md:items-center" to="#contact">
-              Contact
-            </Link>
-            <Link className="mr-6 block md:hidden contact" to="#contact">
-              <i class="far fa-envelope"></i>
-            </Link>
-          </div>
-        </div>
-      </section>
-    )
-  }
-}
 
-export default Navbar;
+  return (
+    <section id="navbar" className="fixed bg-white w-full z-10 opacity-75">
+      <div className="container flex justify-center md:justify-between items-center py-2">
+        <Link className="my-1 hidden md:flex md:items-center" to="#header">
+          <img src="../images/logocloe.png" alt="logo Cloe"/>
+        </Link>
+        <div className="right-content flex">
+          <Link className="mr-6 flex items-center" to="#about">
+            About
+          </Link>
+          {/* <Link
+              className="mr-6 flex items-center"
+              id="codelink"
+              to="#about"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={1000}
+              onClick={() => {
+                setTimeout(() => {
+                  window.scrollBy(0, 2)
+                }, 1050)
+              }}
+            >code</Link> */}
+          <Link className="mr-6 flex items-center" to="#technologies">
+            Technologies
+          </Link>
+          <Link className="mr-6 flex items-center" to="#projects">
+            Projects
+          </Link>
+          <Link className="hidden md:flex md:items-center" to="#contact">
+            Contact
+          </Link>
+          <Link className="block md:hidden contact" to="#contact">
+            <i class="far fa-envelope"></i>
+          </Link>
+        </div>
+      </div>
+    </section>
+  )
+}
