@@ -17,6 +17,12 @@
   }
 }
 
+@media (max-width: 450px) {
+  #banner {
+    background-image: url('../../images/header-mob.png');
+  }
+}
+
 #banner > .content > .geometric-element {
   opacity: 0.3;
   backdrop-filter: blur(24px);

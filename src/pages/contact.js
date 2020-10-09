@@ -4,9 +4,9 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="container flex flex-col items-center justify-center mt-8"
+      className="container flex flex-col items-center justify-center mt-8 p-3"
     >
-      <h1 className="text-center">
+      <h1 className="text-center flex flex-wrap">
         Interested in a collaboration or learning more?
       </h1>
       <h2 className="my-8">Reach out!</h2>
