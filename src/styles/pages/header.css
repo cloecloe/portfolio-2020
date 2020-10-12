@@ -5,7 +5,7 @@
 #banner {
   background-image: url('../../images/header-circle.png'), url('../../images/header-triangle.png');
   background-size: cover;
-  background-attachment: fixed, scroll;
+  background-attachment: fixed;
   background-repeat: no-repeat, repeat-y;
   background-position: center;
   height: 100%;
@@ -16,7 +16,7 @@
     background-image: url('../../images/header-mobile.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position: center;
     height: 100%;
   }
