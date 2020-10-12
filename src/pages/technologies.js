@@ -72,6 +72,7 @@ const Technologies = () => {
           <h2 className="other-tools">Other tools and API</h2>
           <Technology iconsTech={[
             "heroku.png",
+            "surge.png",
             "git.png",
             "github.svg",
             "docker.webp",

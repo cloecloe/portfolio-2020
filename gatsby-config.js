@@ -6,6 +6,8 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [`gatsby-plugin-react-helmet`],
-  plugins: [`gatsby-plugin-netlify`],
+  plugins: [
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-netlify`
+  ],
 }
