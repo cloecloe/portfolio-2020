@@ -21,30 +21,16 @@ export default function Navbar() {
           <img src="../images/logocloe.png" alt="logo Cloe"/>
         </Link>
         <div className="right-content flex">
-          <Link className="mr-6 flex items-center" to="#about">
+          <Link className="px-4 py-2 flex items-center" to="#about">
             About
           </Link>
-          {/* <Link
-              className="mr-6 flex items-center"
-              id="codelink"
-              to="#about"
-              spy={true}
-              smooth={true}
-              offset={-100}
-              duration={1000}
-              onClick={() => {
-                setTimeout(() => {
-                  window.scrollBy(0, 2)
-                }, 1050)
-              }}
-            >code</Link> */}
-          <Link className="mr-6 flex items-center" to="#technologies">
+          <Link className="px-4 py-2 flex items-center" to="#technologies">
             Technologies
           </Link>
-          <Link className="mr-6 flex items-center" to="#projects">
+          <Link className="px-4 py-2 flex items-center" to="#projects">
             Projects
           </Link>
-          <Link className="hidden md:flex md:items-center" to="#contact">
+          <Link className="px-4 py-2 hidden md:flex md:items-center" to="#contact">
             Contact
           </Link>
           <Link className="block md:hidden contact" to="#contact">
