@@ -33,7 +33,7 @@ export default function Navbar() {
           <Link className="px-4 py-2 hidden md:flex md:items-center" to="#contact">
             Contact
           </Link>
-          <Link className="block md:hidden contact" to="#contact">
+          <Link className="ml-1 block md:hidden contact" to="#contact">
             <i class="far fa-envelope"></i>
           </Link>
         </div>
