@@ -4,6 +4,9 @@ import Project from "../components/project"
 export default function Projects() {
   return (
     <div id="projects">
+      {/* <div className="container pt-32">
+        <h1>Projects</h1>
+      </div> */}
       <Project
         title="Coriander Planner"
         date="August 2020"
