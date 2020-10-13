@@ -17,25 +17,25 @@ export default function Navbar() {
   return (
     <section id="navbar" className="fixed bg-white w-full z-10 opacity-75">
       <div className="container flex justify-center md:justify-between items-center py-2">
-        <a className="my-1 hidden md:flex md:items-center" href="#header" onClick={() => scrollTo('#header')}>
+        <button className="my-1 hidden md:flex md:items-center" onClick={() => scrollTo('#header')}>
           <img src="../images/logocloe.png" alt="logo Cloe"/>
-        </a>
+        </button>
         <div className="right-content flex">
-          <a className="px-4 py-2 flex items-center" href="#about" onClick={() => scrollTo('#about')}>
+          <button className="px-4 py-2 flex items-center" onClick={() => scrollTo('#about')}>
             About
-          </a>
-          <a className="px-4 py-2 flex items-center" href="#technologies" onClick={() => scrollTo('#technologies')}>
+          </button>
+          <button className="px-4 py-2 flex items-center" onClick={() => scrollTo('#technologies')}>
             Technologies
-          </a>
-          <a className="px-4 py-2 flex items-center" href="#projects" onClick={() => scrollTo('#projects')}>
+          </button>
+          <button className="px-4 py-2 flex items-center" onClick={() => scrollTo('#projects')}>
             Projects
-          </a>
-          <a className="px-4 py-2 hidden md:flex md:items-center" href="#contact" onClick={() => scrollTo('#contact')}>
+          </button>
+          <button className="px-4 py-2 hidden md:flex md:items-center" onClick={() => scrollTo('#contact')}>
             Contact
-          </a>
-          <a className="ml-1 block md:hidden contact" href="#contact" onClick={() => scrollTo('#contact')}>
+          </button>
+          <button className="ml-1 block md:hidden contact" onClick={() => scrollTo('#contact')}>
             <i class="far fa-envelope"></i>
-          </a>
+          </button>
         </div>
       </div>
     </section>
