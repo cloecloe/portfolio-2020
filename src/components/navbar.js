@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from "gatsby"
+import scrollTo from 'gatsby-plugin-smoothscroll';
 
 export default function Navbar() {
   //   state = {
@@ -17,25 +17,25 @@ export default function Navbar() {
   return (
     <section id="navbar" className="fixed bg-white w-full z-10 opacity-75">
       <div className="container flex justify-center md:justify-between items-center py-2">
-        <Link className="my-1 hidden md:flex md:items-center" to="#header">
+        <a className="my-1 hidden md:flex md:items-center" href="#header" onClick={() => scrollTo('#header')}>
           <img src="../images/logocloe.png" alt="logo Cloe"/>
-        </Link>
+        </a>
         <div className="right-content flex">
-          <Link className="px-4 py-2 flex items-center" to="#about">
+          <a className="px-4 py-2 flex items-center" href="#about" onClick={() => scrollTo('#about')}>
             About
-          </Link>
-          <Link className="px-4 py-2 flex items-center" to="#technologies">
+          </a>
+          <a className="px-4 py-2 flex items-center" href="#technologies" onClick={() => scrollTo('#technologies')}>
             Technologies
-          </Link>
-          <Link className="px-4 py-2 flex items-center" to="#projects">
+          </a>
+          <a className="px-4 py-2 flex items-center" href="#projects" onClick={() => scrollTo('#projects')}>
             Projects
-          </Link>
-          <Link className="px-4 py-2 hidden md:flex md:items-center" to="#contact">
+          </a>
+          <a className="px-4 py-2 hidden md:flex md:items-center" href="#contact" onClick={() => scrollTo('#contact')}>
             Contact
-          </Link>
-          <Link className="ml-1 block md:hidden contact" to="#contact">
+          </a>
+          <a className="ml-1 block md:hidden contact" href="#contact" onClick={() => scrollTo('#contact')}>
             <i class="far fa-envelope"></i>
-          </Link>
+          </a>
         </div>
       </div>
     </section>
