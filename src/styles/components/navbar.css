@@ -27,6 +27,6 @@
   transform: scale(1.03);
 }
 
-#navbar > .flex > button:hover {
+#navbar > .flex > button:focus {
   outline: none;
 }
