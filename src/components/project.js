@@ -23,14 +23,24 @@ export default function Project(props) {
         <p className="my-6">
           {props.content}
         </p>
-        <Link
-          target="_blank"
-          className="flex"
-          to={props.link}
-        >
-          <h4 className="mb-4">Look at my project</h4>
-          <i class="fas fa-external-link-alt ml-2"></i>
-        </Link>
+        <div className="flex">
+          <Link
+            target="_blank"
+            className="flex pr-1"
+            to={props.linkSite}
+          >
+            <h4 className="mb-4">View website</h4>
+            <i class="fas fa-external-link-alt ml-2"></i>
+          </Link>
+          <Link
+            target="_blank"
+            className="flex"
+            to={props.linkgit}
+          >
+            <h4 className="mb-4">   /   View source code</h4>
+            <i class="far fa-file-code text-xl ml-2"></i>
+          </Link>
+        </div>
         <div className="icons flex flex-wrap">
           {iconsList}
         </div>
