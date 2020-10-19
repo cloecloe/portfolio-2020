@@ -8,6 +8,7 @@ export default function Projects() {
         <h1>Projects</h1>
       </div> */}
       <Project
+        classes="project container flex flex-col md:flex-row items-center py-32"
         title="Coriander Planner"
         date="August 2020"
         content="A webapp to plan your meals ahead in a calendar, find recipe ideas and
@@ -23,6 +24,7 @@ export default function Projects() {
           "css.png",
           "bootstrap.png",
           "cloudinary.jpg",
+          "algolia.png",
           "activerecord.jpg",
           "heroku.png",
           "figma.png",
@@ -30,6 +32,7 @@ export default function Projects() {
         image="coriander-planner.png"
       />
       {/* <Project
+        classes="project container flex flex-col md:flex-row-reverse items-center py-32"
         title="CIVI Communauté"
         date="Septembre/October 2020"
         content="The CIVI is a platform for connecting all those with a vested interest in immunization related topics.

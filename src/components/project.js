@@ -15,7 +15,7 @@ export default function Project(props) {
   return (
     <div
       id="project"
-      className="project container flex flex-col md:flex-row items-center py-32"
+      className={props.classes}
     >
       <div className="content-side w-full md:w-2/3 md:mr-5">
         <h2>{props.title}</h2>
@@ -49,7 +49,7 @@ export default function Project(props) {
         target="_blank"
         rel="noopener noreferrer"
         className="image-side w-1/3"
-        to={props.link}
+        to={props.linkSite}
       >
         <img
           src={"../images/" + props.image}
