@@ -76,13 +76,16 @@ const Technologies = () => {
             "git.png",
             "github.svg",
             "docker.webp",
-            "cloudinary.jpg",
             "npm.png",
             "yarn.png",
             "babel.png",
             "webpack.png",
+            "gatsby.jpg",
+            "vscode.png",
+            "sublim.png",
+            "cloudinary.jpg",
+            "algolia.png",
             "mapbox.png",
-            "gatsby.jpeg",
           ]} />
         </div>
       </div>
