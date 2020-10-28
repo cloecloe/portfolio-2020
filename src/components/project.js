@@ -17,7 +17,7 @@ export default function Project(props) {
       id="project"
       className={props.classes}
     >
-      <div className="content-side w-full md:w-2/3 md:mr-5">
+      <div className={props.classElement}>
         <h2>{props.title}</h2>
         <h3>{props.date}</h3>
         <p className="my-6">
