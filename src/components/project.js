@@ -34,7 +34,7 @@ export default function Project(props) {
           </Link>
           <Link
             target="_blank"
-            className="flex"
+            className={props.classLinkGit}
             to={props.linkgit}
           >
             <h4 className="mb-4">   /   View source code</h4>
